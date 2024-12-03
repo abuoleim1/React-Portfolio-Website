@@ -12,13 +12,13 @@ Professionally, I’ve had the honor of interning at NASA’s Kennedy Space Cent
 With a passion for hands-on projects and a proactive approach to learning, I combine technical expertise, leadership, and service to create lasting positive impacts in both my work and my community.
 `;
 
-export const ABOUT_TEXT = `I’m proficient in Python, C, C++, SQL, JavaScript, Verilog, RISC-V, and I also speak English and Arabic.
+export const ABOUT_TEXT = `I’m proficient in Python, C, C++, SQL, JavaScript, Verilog, RISC-V. I also speak English and Arabic.
 
-My technical interests span from front-end and back-end development to game design, web development, and contributing to open-source projects. At the University of South Florida, I’ve found my favorite classes to be Data Structures and Computer Logic and Design (+ the lab). I enjoy delving into the foundational building blocks of code, the elegant crucible where logic and creativity intertwine.
+My technical interests span the realms of front-end and back-end development, game design, web development, and contributing to open-source projects. At the University of South Florida, I’ve found my favorite classes to be Data Structures and Computer Logic and Design (+ the lab). I’m fascinated by the structure and foundational building blocks of code— it's the blueprint that transforms ideas into masterpieces, equipping you with the tools to create innovative solutions. To me, Data Structures is the crucible where logic and creativity intertwine.
 
-Hardware holds a captivating allure for me as well. Whether I’m building circuits, designing logic gates, or exploring the verdant labyrinth of embedded systems, there’s something exhilarating about seeing tangible results from orchestrated effort. It’s this blend of theory and hands-on practice that fuels my passion for computer engineering.
+Hardware holds just as much allure. Whether I’m building circuits, designing logic gates, or exploring the verdant labyrinth of embedded systems, there’s a thrill in bringing concepts to life through tangible results. It’s this blend of theory and hands-on practice that fuels my passion for computer engineering.
 
-I chose this field to delve deeper into the enigmatic relationship between hardware and software—to transcend surface-level understanding and reimagine what technology can achieve when both domains are seamlessly intertwined.
+I chose this field to dive deep into the intricate relationship between hardware and software- to transcend surface-level understanding and reimagine what technology can achieve when these domains are intertwined.
 
  `;
 
