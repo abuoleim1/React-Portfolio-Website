@@ -58,10 +58,10 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-     title: "Interactive T-Rex Game",
+     title: "Interactive Google Chrome Computer Offline T-Rex Game",
      image: image2,
      description:
-       "Designed and implemented a 2D endless runner game using p5.js and associated libraries (p5.play.js, p5.sound.js, and p5.dom.js), showcasing expertise in JavaScript and game development. Programmed dynamic game mechanics, including sprite animations, collision detection, score tracking, and state management (play/pause/end), used object-oriented design principles. Implemented features such as random obstacle generation, scalable cloud spawning, and restart functionality for enhanced replayability.",
+       "Created a replica of the Google Chrome 2D endless runner game using p5.js and associated libraries (p5.play.js, p5.sound.js, and p5.dom.js), showcasing expertise in JavaScript and game development. Programmed dynamic game mechanics, including sprite animations, collision detection, score tracking, and state management (play/pause/end), used object-oriented design principles. Implemented features such as random obstacle generation, scalable cloud spawning, and restart functionality for enhanced replayability. Click the T-Rex image to play!",
      technologies: ["JavaScript", "Game Development", "p5.js", "Animation", "Debugging", "Performance Optimization", "Frontend Development"],
      link:"https://interactive-t-rex-game.vercel.app/",
    },
