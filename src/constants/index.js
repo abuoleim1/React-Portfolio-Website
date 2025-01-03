@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import image2 from "../assets/projects/image2.png";
 
 export const HERO_CONTENT = `Hi! I'm Layalie AbuOleim, a junior honors Computer Engineering student at the University of South Florida. I believe true innovation comes from blending technical expertise with creativity, teamwork, and community involvement.
 
@@ -56,6 +57,13 @@ export const PROJECTS = [
       "Built a personal portfolio website using React.js and leveraging Tailwind CSS and animated it with Framer Motion, achieving seamless mobile-to-desktop transitions and reduced page load times by 40% through optimized component rendering. Showcases myself, projects, and experience.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
+  {
+     title: "Interactive T-Rex Game",
+     image: image2,
+     description:
+       "Designed and implemented a 2D endless runner game using p5.js and associated libraries (p5.play.js, p5.sound.js, and p5.dom.js), showcasing expertise in JavaScript and game development. Programmed dynamic game mechanics, including sprite animations, collision detection, score tracking, and state management (play/pause/end), used object-oriented design principles. Implemented features such as random obstacle generation, scalable cloud spawning, and restart functionality for enhanced replayability.",
+     technologies: ["JavaScript", "Game Development", "p5.js", "Animation", "Debugging", "Performance Optimization", "Frontend Development"],
+   },
   {
     title: "Huffman Code Generator",
     image: project2,
