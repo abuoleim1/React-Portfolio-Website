@@ -3,6 +3,11 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import image2 from "../assets/projects/image2.png";
+import pom from "../assets/projects/worknez.png";
+import energy from "../assets/projects/energyicon.png";
+import face from "../assets/projects/facialemotionicon.png";
+
+
 
 export const HERO_CONTENT = `Hi! I'm Layalie AbuOleim, a junior honors Computer Engineering student at the University of South Florida. I believe true innovation comes from blending technical expertise with creativity, teamwork, and community involvement.
 
@@ -65,6 +70,29 @@ export const PROJECTS = [
      technologies: ["JavaScript", "Game Development", "p5.js", "Animation", "Debugging", "Performance Optimization", "Frontend Development"],
      link:"https://interactive-t-rex-game.vercel.app/",
    },
+ {
+    title: "Pomodoro Study App",
+    image: pom,
+    description:
+      "Built a React UI cross platform app with configurable work/break cycles, pause/resume/skip. Drew my own icons and backgrounds, and create my own sound cues. Launched with Electron. ",
+    technologies: ["React", "Electron", "JavaScript", "HTML/CSS", "IPC", "Node.js", "electron-builder"],
+  },
+
+  {
+    title: "Energy-Aware Early Exit CNN (data set CIFAR-10, PyTorch)",
+    image: energy,
+    description:
+      "Built a multi-exit model with confidence-gated, conditional execution; implemented joint training with weighted multi-exit loss (α=0.4) and a heavy-tail (conv-only deep path) to boost final-head accuracy and increase skippable computations. At τ=0.60, achieved ~52% early exits and ~1.37× model-time speedup (≈37% faster) with only a ~1.7 percentage-point accuracy drop vs a ~85% no-EE baseline. Built device-synchronized model-time benchmarks & automated threshold sweeps",
+    technologies: ["Python", "PyTorch", "Torchvision", "NumPy", "Pandas", "Matplotlib", "Jupyter/VS Code", "Apple MPS", "CUDA"],
+  },
+  {
+    title: "Facial Emotion Recognition CPU vs GPU",
+    image: face,
+    description:
+      "Built an emotion detection CNN with CPU (3 conv blocks w/classifier) and GPU (widened 64->256 + dropout) variants; strong augmentation (rotations/zooms/flips), and class-weighted loss to counter low resolution data. Trained 100 epochs w/ early stopping, checkpointing, and scheduling. Benchmarked time/memory/energy in confusion matrices and reproducible plots. Achieved 65.3% GPU & 64.8% CPU (target accuracy 65%).Light CPU model→memory constrained runs, heavy GPU→accuracy.",
+    technologies: ["Python", "PyTorch", "Keras-style CNNs", "NumPy", "Pandas", "Matplotlib", "Google Colab (T4)", "psutil/pynvm"],
+  },
+ 
   {
     title: "Huffman Code Generator",
     image: project2,
